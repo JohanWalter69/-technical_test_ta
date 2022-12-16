@@ -10,3 +10,28 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.letter-cases {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 600px;
+}
+
+ .letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0909a2;
+  color: white;
+  font-size: 34px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+ }
+
+ form {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+ }
